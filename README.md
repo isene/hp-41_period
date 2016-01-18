@@ -43,6 +43,8 @@ After showing all the detail for one lement in the sequence listed above, the pr
 
 When showing the Group, Period, Block, the Y register will contain the Group number and the X register will contain the Period number. By adding 1 to X and pressing "D", you will jump one period down and show the element just below the current element. By subtracting 1 from X, you will jump to the element jut above it.
 
+To use this, load "PERIOD1.ROM", "PERIOD2.ROM" and "PERIOD3.ROM" as consequtive pages (with the HEPAX module loaded in some other page.
+
 ### NM (Nuclear Mass)
 
 The program "NM" is included mostly because there was more space available. It is taken from the User Library Solutions, "Chemical Engineering" and calculates for a given element with a given number of protons (Z) and neutrons (N): Binding Energy, the Binding Energy per Nucleon, Mass of the Nucleus, Mass per Nucleon, Mass Excess of the Nucleus, Mass Excess per Nucleon, Volume Energy, Volume Energy per Nucleon, Surface Energy, Surface Energy per Nucleon, Coulomb Energy, Couloumb Energy per Nucleon, Symmetry Energy, Symmetry Energy per Nucleon, Pairing Energy and Pairing Energy per Nucleon. The details and listing of "NM" is given in "NuclearMass_NM.pdf".
