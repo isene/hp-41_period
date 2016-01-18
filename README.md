@@ -43,7 +43,7 @@ After showing all the detail for one lement in the sequence listed above, the pr
 
 When showing the Group, Period, Block, the Y register will contain the Group number and the X register will contain the Period number. By adding 1 to X and pressing "D", you will jump one period down and show the element just below the current element. By subtracting 1 from X, you will jump to the element jut above it.
 
-To use this, load "PERIOD1.ROM", "PERIOD2.ROM" and "PERIOD3.ROM" as consequtive pages (with the HEPAX module loaded in some other page.
+To use this, load "PERIOD1.ROM", "PERIOD2.ROM" and "PERIOD3.ROM" as consequtive pages (with the HEPAX module loaded in some other page).
 
 ### NM (Nuclear Mass)
 
