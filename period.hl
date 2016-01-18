@@ -1,0 +1,67 @@
+PERIOD
+	PROGRAM
+		<period.41>
+	Text files for PERIOD
+		ELEMENT
+			Format
+				00: "ELMNTNAME SY G P B"
+				44: "RUTHENIUM RU 8 5 D"
+			Content
+				Atomic Number = Register number
+				Name
+				Symbol
+				Group
+				Period
+				Block
+		ELEMNT2
+			Format
+				00: "ATWGHT PP T O MELT BOIL"
+				44: "101.07 15 1 6 2250 3900"
+			Content
+				Atomic Weight
+				Property
+					11 Alkali metal
+					12 Alkaline earth metal
+					13 Lanthanide
+					14 Actinide
+					15 Transition metal
+					16 Post-transition metal
+					17 Metalloid
+					18 Polyatomic nonmetal
+					19 Diatomic nonmetal
+					20 Noble gas
+					21 Unknown
+				Type
+					1 Solid
+					2 Liquid
+					3 Gas
+					4 Unknown
+				Occurrence
+					6 Priomordial
+					7 From decay
+					8 Synthetic
+				Melting point
+				Boiling point
+		ELEMNT3
+			Format
+				00: "DISC CONFIG"
+				44: "1844 KR 4d7 5s1"
+			Content
+				Year of discovery
+				Electron configuration
+		ELEMNT4
+			Format
+				00: "R:E R:C OR"
+				44: "130 178 XX"
+			Content
+				Atomic radius (empirical)
+				Atomic radius (calculated)
+				Origin
+					31: "BIG BANG"
+					32: "COSM. RAYS"
+					33: "S+L STARS"
+					34: "L STARS"
+					35: "SN+L STARS"
+					36: "S. NOVA"
+					37: "MAN MADE"
+
