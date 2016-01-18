@@ -27,17 +27,17 @@ LBL e |Takes you back to the menu
 
 The details for each element is:
 
-Atomic number, Name and Symbol
-Group, Period and Block
-Atomic Weight
-Property (Alkali metal, Noble Gas, etc.)
-Type (Gas, Liquid, Solid or Unknown)
-Occurrence in nature (Primordial, From Decay, Synthetic)
-Melting Point, Boiling Point (in Kelvin)
-Year of discovery ("OLD" if known in ancient times)
-Electron Configuration
-Atomic Radius (empirical and calculated)
-Origin (Big Bang, Cosmic Rays, Small & Large Stars, Large Stars, Large Stars & Super Nova, Super Nova and Man Made)
+* Atomic number, Name and Symbol
+* Group, Period and Block
+* Atomic Weight
+* Property (Alkali metal, Noble Gas, etc.)
+* Type (Gas, Liquid, Solid or Unknown)
+* Occurrence in nature (Primordial, From Decay, Synthetic)
+* Melting Point, Boiling Point (in Kelvin)
+* Year of discovery ("OLD" if known in ancient times)
+* Electron Configuration
+* Atomic Radius (empirical and calculated)
+* Origin (Big Bang, Cosmic Rays, Small & Large Stars, Large Stars, Large Stars & Super Nova, Super Nova and Man Made)
 
 After showing all the detail for one lement in the sequence listed above, the program will show the details for the next element until it wraps around from 118 back to Hydrogen.
 
