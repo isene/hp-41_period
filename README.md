@@ -15,7 +15,7 @@ Upon XEQ "PERIOD", you will be presented with a menu.
 
 The program shows the short form of labels A-D:
 
-**  0 N SY G↑P  **
+**__0 N SY G↑P__**
 
 Label (menu)	|Description
 ----------------|-----------
