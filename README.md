@@ -49,3 +49,6 @@ To use this, load "PERIOD1.ROM", "PERIOD2.ROM" and "PERIOD3.ROM" as consequtive 
 
 The program "NM" is included mostly because there was more space available. It is taken from the User Library Solutions, "Chemical Engineering" and calculates for a given element with a given number of protons (Z) and neutrons (N): Binding Energy, the Binding Energy per Nucleon, Mass of the Nucleus, Mass per Nucleon, Mass Excess of the Nucleus, Mass Excess per Nucleon, Volume Energy, Volume Energy per Nucleon, Surface Energy, Surface Energy per Nucleon, Coulomb Energy, Couloumb Energy per Nucleon, Symmetry Energy, Symmetry Energy per Nucleon, Pairing Energy and Pairing Energy per Nucleon. The details and listing of "NM" is given in "NuclearMass_NM.pdf".
 
+## License
+This software is released into the Public Domain.
+
