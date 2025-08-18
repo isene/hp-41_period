@@ -1,4 +1,10 @@
 # hp-41_period
+
+[![HP-41](https://img.shields.io/badge/HP--41-Calculator-orange)](https://en.wikipedia.org/wiki/HP-41C)
+[![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)
+[![GitHub stars](https://img.shields.io/github/stars/isene/hp-41_period.svg)](https://github.com/isene/hp-41_period/stargazers)
+[![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
+
 ## HP-41: The periodic table chemical elements for the HP-41 with much details.
 
 This is a set of 3 4K HEPAX RAM pages. You can load these pages into an HP-41CL, an HP-41 with a NoV module or any other setup where you have a HEPAX module loaded and the ability to load HEPAX RAM pages. This means that HEPAX is a prerequisite for using the PERIOD program.
