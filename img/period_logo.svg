@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="150" height="150" fill="#0f1419"/>
+  
+  <!-- Periodic Table grid in background -->
+  <g opacity="0.2">
+    <g stroke="#374151" stroke-width="0.5">
+      <!-- Grid lines for periodic table -->
+      <line x1="10" y1="20" x2="140" y2="20"/>
+      <line x1="10" y1="30" x2="140" y2="30"/>
+      <line x1="10" y1="40" x2="140" y2="40"/>
+      <line x1="10" y1="50" x2="140" y2="50"/>
+      <line x1="10" y1="60" x2="140" y2="60"/>
+    </g>
+  </g>
+  
+  <!-- HP-41 Calculator -->
+  <g transform="translate(75, 85)">
+    <!-- Calculator body -->
+    <rect x="-35" y="-35" width="70" height="70" rx="5" fill="#2c2c2c" stroke="#444" stroke-width="2"/>
+    
+    <!-- LCD Display -->
+    <rect x="-30" y="-30" width="60" height="12" rx="2" fill="#0a4d0a" stroke="#333" stroke-width="1"/>
+    <text x="0" y="-21" font-family="monospace" font-size="6" fill="#00ff00" text-anchor="middle">PERIODIC TABLE</text>
+    
+    <!-- Element display -->
+    <rect x="-28" y="-15" width="56" height="20" fill="#1a1a1a" stroke="#333" stroke-width="1" rx="1"/>
+    
+    <!-- Element data -->
+    <g font-family="monospace" font-size="4" fill="#00ff00">
+      <text x="-25" y="-9">Au - Gold</text>
+      <text x="-25" y="-3">Atomic #: 79</text>
+      <text x="-25" y="3">Mass: 196.967</text>
+    </g>
+    
+    <!-- Keyboard -->
+    <g fill="#1a1a1a" stroke="#666" stroke-width="0.5">
+      <rect x="-25" y="8" width="10" height="6" rx="0.5"/>
+      <rect x="-12" y="8" width="10" height="6" rx="0.5"/>
+      <rect x="1" y="8" width="10" height="6" rx="0.5"/>
+      <rect x="14" y="8" width="10" height="6" rx="0.5"/>
+      
+      <rect x="-25" y="16" width="10" height="6" rx="0.5"/>
+      <rect x="-12" y="16" width="10" height="6" rx="0.5"/>
+      <rect x="1" y="16" width="10" height="6" rx="0.5"/>
+      <rect x="14" y="16" width="10" height="6" rx="0.5"/>
+    </g>
+    
+    <!-- Key labels -->
+    <g font-family="monospace" font-size="3" fill="#fff" text-anchor="middle">
+      <text x="-20" y="12">ELEM</text>
+      <text x="-7" y="12">MASS</text>
+      <text x="6" y="12">NUM</text>
+      <text x="19" y="12">FIND</text>
+    </g>
+  </g>
+  
+  <!-- Periodic Table elements visualization -->
+  <g transform="translate(75, 35)">
+    <!-- Sample elements -->
+    <g font-family="monospace" text-anchor="middle">
+      <!-- Row 1 -->
+      <rect x="-60" y="-15" width="12" height="12" fill="#ef4444" stroke="#dc2626" stroke-width="1" rx="1"/>
+      <text x="-54" y="-8" font-size="6" fill="#fff" font-weight="bold">H</text>
+      <text x="-54" y="-4" font-size="3" fill="#fff">1</text>
+      
+      <rect x="48" y="-15" width="12" height="12" fill="#a78bfa" stroke="#8b5cf6" stroke-width="1" rx="1"/>
+      <text x="54" y="-8" font-size="6" fill="#fff" font-weight="bold">He</text>
+      <text x="54" y="-4" font-size="3" fill="#fff">2</text>
+      
+      <!-- Row 2 -->
+      <rect x="-60" y="0" width="12" height="12" fill="#f59e0b" stroke="#d97706" stroke-width="1" rx="1"/>
+      <text x="-54" y="7" font-size="6" fill="#fff" font-weight="bold">Li</text>
+      <text x="-54" y="11" font-size="3" fill="#fff">3</text>
+      
+      <rect x="-45" y="0" width="12" height="12" fill="#84cc16" stroke="#65a30d" stroke-width="1" rx="1"/>
+      <text x="-39" y="7" font-size="6" fill="#fff" font-weight="bold">Be</text>
+      <text x="-39" y="11" font-size="3" fill="#fff">4</text>
+      
+      <!-- Transition metals sample -->
+      <rect x="-15" y="0" width="12" height="12" fill="#3b82f6" stroke="#2563eb" stroke-width="1" rx="1">
+        <animate attributeName="fill" values="#3b82f6;#60a5fa;#3b82f6" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="-9" y="7" font-size="6" fill="#fff" font-weight="bold">Fe</text>
+      <text x="-9" y="11" font-size="3" fill="#fff">26</text>
+      
+      <rect x="0" y="0" width="12" height="12" fill="#3b82f6" stroke="#2563eb" stroke-width="1" rx="1"/>
+      <text x="6" y="7" font-size="6" fill="#fff" font-weight="bold">Co</text>
+      <text x="6" y="11" font-size="3" fill="#fff">27</text>
+      
+      <rect x="15" y="0" width="12" height="12" fill="#3b82f6" stroke="#2563eb" stroke-width="1" rx="1"/>
+      <text x="21" y="7" font-size="6" fill="#fff" font-weight="bold">Ni</text>
+      <text x="21" y="11" font-size="3" fill="#fff">28</text>
+    </g>
+  </g>
+  
+  <!-- Element categories legend -->
+  <g transform="translate(20, 130)" opacity="0.8">
+    <text x="0" y="0" font-family="monospace" font-size="4" fill="#fff">Categories:</text>
+    <rect x="0" y="3" width="8" height="6" fill="#f59e0b" rx="1"/>
+    <text x="10" y="7" font-family="monospace" font-size="3" fill="#f59e0b">Alkali</text>
+    
+    <rect x="35" y="3" width="8" height="6" fill="#3b82f6" rx="1"/>
+    <text x="45" y="7" font-family="monospace" font-size="3" fill="#3b82f6">Trans</text>
+    
+    <rect x="65" y="3" width="8" height="6" fill="#a78bfa" rx="1"/>
+    <text x="75" y="7" font-family="monospace" font-size="3" fill="#a78bfa">Noble</text>
+    
+    <rect x="95" y="3" width="8" height="6" fill="#ef4444" rx="1"/>
+    <text x="105" y="7" font-family="monospace" font-size="3" fill="#ef4444">Other</text>
+  </g>
+  
+  <!-- Electron configuration -->
+  <g transform="translate(115, 40)" opacity="0.7">
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#6b7280" stroke-width="0.5"/>
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#6b7280" stroke-width="0.5"/>
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#6b7280" stroke-width="0.5"/>
+    
+    <!-- Electrons -->
+    <circle cx="0" cy="-8" r="1" fill="#60a5fa">
+      <animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="12" r="1" fill="#60a5fa">
+      <animateTransform attributeName="transform" type="rotate" values="0 0 0;-360 0 0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Nucleus -->
+    <circle cx="0" cy="0" r="2" fill="#ef4444"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="75" y="135" font-family="monospace" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">PERIOD</text>
+  <text x="75" y="145" font-family="monospace" font-size="7" fill="#94a3b8" text-anchor="middle">Periodic Table Elements</text>
+</svg>
