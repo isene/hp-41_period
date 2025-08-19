@@ -6,6 +6,7 @@
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
 <img src="img/period_logo.svg" align="left" width="150" height="150" alt="Periodic Table Logo">
+<br clear="left"/>
 
 ## HP-41: The periodic table chemical elements for the HP-41 with much details.
 
